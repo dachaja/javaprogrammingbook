@@ -1,0 +1,27 @@
+package com.lookcapp.bridge;
+
+import java.io.BufferedReader;
+
+public class FileDisplayImpl extends DisplayImpl{
+	private String filename;
+	private BufferedReader reader;
+	
+	@Override
+	public void rawOpen() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void rawPrint() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void rawClose() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
