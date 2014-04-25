@@ -1,0 +1,5 @@
+package com.lookcapp.prototype.framework;
+
+public interface Product extends Cloneable {
+
+}

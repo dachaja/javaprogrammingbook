@@ -1,0 +1,8 @@
+INDEX VERSION 1.122+/Users/adokalways/Documents/Projects/study/javaprogrammingbook/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1050361360.index
+4019043017.index
+3074984626.index
+3600112914.index
+3599030259.index
+949697598.index
+3899538929.index

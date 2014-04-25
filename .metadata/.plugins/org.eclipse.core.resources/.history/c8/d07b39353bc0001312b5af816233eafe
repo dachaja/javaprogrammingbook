@@ -1,0 +1,5 @@
+package com.lookcapp.iterator;
+
+public interface Iterator {
+
+}

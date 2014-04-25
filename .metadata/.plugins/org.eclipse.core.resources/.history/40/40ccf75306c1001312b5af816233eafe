@@ -1,0 +1,5 @@
+package com.lookcapp.adapter;
+
+public class FileProperties implements FileIO{
+
+}

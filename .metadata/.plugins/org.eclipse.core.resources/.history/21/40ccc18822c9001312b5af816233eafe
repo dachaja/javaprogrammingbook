@@ -1,0 +1,20 @@
+package chapter17_jdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class JDBC_Ex1 {
+	public static void main(String[] args) {
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			Connection conn = DriverManager.getConnection("jdbc:mysql://ec2-54-244-245-83.us-west-2.compute.amazonaws.com:3306/test?user=ec2-user&password=root007");
+			
+			System.out.println("DB connected.");
+		} catch (SQLException e) {
+			System.out.println(e.getMessage());
+		} catch (ClassNotFoundException e) {
+			System.out.println(e.getMessage());
+		}
+	}
+}

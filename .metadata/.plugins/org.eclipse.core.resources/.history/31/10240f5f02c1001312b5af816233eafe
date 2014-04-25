@@ -1,0 +1,17 @@
+package com.lookcapp.adapter;
+
+public class PrintBanner extends Banner implements Print {
+
+	@Override
+	public void printWeak() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void printStrong() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

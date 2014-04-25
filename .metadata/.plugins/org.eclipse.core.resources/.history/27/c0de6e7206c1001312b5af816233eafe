@@ -1,0 +1,15 @@
+package com.lookcapp.adapter;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Print p = new PrintBanner("Hello");
+		p.printWeak();
+		p.printStrong();
+		
+		PrintBanner pb = new PrintBanner("Hello2");
+		pb.printWeak();
+		pb.printStrong();
+	}
+
+}

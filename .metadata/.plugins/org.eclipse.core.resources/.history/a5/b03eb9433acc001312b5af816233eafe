@@ -1,0 +1,18 @@
+package com.lookcapp.abstractfactory.listfactory;
+
+import com.lookcapp.abstractfactory.factory.Page;
+
+public class ListPage extends Page {
+
+	public ListPage(String title, String author) {
+		super(title, author);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String makeHTML() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

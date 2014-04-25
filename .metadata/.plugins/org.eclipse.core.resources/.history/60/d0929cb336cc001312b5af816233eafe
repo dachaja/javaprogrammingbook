@@ -1,0 +1,8 @@
+package com.lookcapp.abstractfactory.factory;
+
+public abstract class Factory {
+	public static Factory getFactory(String classname) {
+		Factory factory = null;
+		factory = (Factory)Class.forName(classname).newInstance();
+	}
+}

@@ -1,0 +1,10 @@
+#written by FileProperties
+#Thu Apr 10 16:23:47 PDT 2014
+{\rtf1ansiansicpg1252cocoartf1265cocoasubrtf190=
+day=10
+year=2014
+}=
+{colortbl;\red255green255blue255;}=
+month=4
+margl1440margr1440vieww10800viewh8400viewkind0=
+{\fonttbl}=

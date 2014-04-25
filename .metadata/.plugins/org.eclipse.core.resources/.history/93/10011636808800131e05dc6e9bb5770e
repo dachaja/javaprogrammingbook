@@ -1,0 +1,13 @@
+package chapter8;
+
+import java.io.IOException;
+
+public class FileOutputStreamEx {
+	public static void main(String[] args) {
+		try {
+			
+		} catch (IOException e) {
+			System.out.println("IOException");
+		}
+	}
+}

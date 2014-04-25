@@ -1,0 +1,12 @@
+package chapter17;
+
+import java.sql.Connection;
+import java.sql.Statement;
+
+public class JDBC_Ex3 {
+	public static void main(String[] args) {
+		Connection conn;
+		Statement stmt = null;
+		Class.forName("com.mysql.jdbc.Driver");
+	}
+}

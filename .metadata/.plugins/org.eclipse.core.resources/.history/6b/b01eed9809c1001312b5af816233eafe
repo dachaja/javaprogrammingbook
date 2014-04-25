@@ -1,0 +1,189 @@
+package com.lookcapp.mpaper.lego.businesslogic;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+
+public class LegoJsonSearch {
+	public static void main(String[] args) {
+
+
+		String legoKey = "10000-20057";
+
+		String requestURI = "http://service.lego.com/Views/Service/Pages/BIService.ashx/GetThemeListHtml?searchValue=" + legoKey + "&fromIdx=0";
+
+
+		parseAddressToCoord(requestURI);
+
+	}
+
+	public static void printAddressToCoord(String requestURI) {
+
+
+		BufferedReader bufferedReader = openJSONReader(requestURI);
+
+		printJSONData(bufferedReader);
+
+		closeJSONReader(bufferedReader);
+
+	}
+
+	public static void parseAddressToCoord(String requestURI) {
+
+
+		BufferedReader bufferedReader = openJSONReader(requestURI);
+
+		parseJSONData(bufferedReader);
+
+		closeJSONReader(bufferedReader);
+
+	}
+
+	public static void printJSONData(BufferedReader bufferedReader) {
+
+		String inputLine;
+
+		try {
+
+			while ((inputLine = bufferedReader.readLine()) != null) {
+
+				System.out.println(inputLine);
+
+			}
+
+		} catch (IOException e) {
+
+			e.printStackTrace();
+
+		}
+
+	}
+
+	public static void parseJSONData(BufferedReader bufferedReader) {
+
+		try {
+
+			JSONParser jsonParser = new JSONParser();
+
+			JSONObject jsonObject = (JSONObject) jsonParser
+					.parse(bufferedReader);
+
+
+			JSONArray itemObjectList = (JSONArray) jsonObject.get("Content");
+
+			int i = 1;
+
+			for (Object tempObject : itemObjectList) {
+
+				System.out.println("");
+
+				System.out.println("================= " + i + "result" + " ================= ");
+
+				tempObject = (JSONObject) tempObject;
+
+				System.out.println("\tImageLocation: "
+						+ ((JSONObject) tempObject).get("ImageLocation"));
+
+				System.out.println("\tFrontpageInfo : "
+						+ ((JSONObject) tempObject).get("FrontpageInfo"));
+
+				System.out.println("\tProductName : "
+						+ ((JSONObject) tempObject).get("ProductName"));
+
+				System.out.println("\tProductId : "
+						+ ((JSONObject) tempObject).get("ProductId"));
+
+				System.out.println("\tPdfLocation : "
+						+ ((JSONObject) tempObject).get("PdfLocation"));
+
+				System.out.println("\tDownloadSize : "
+						+ ((JSONObject) tempObject).get("DownloadSize"));
+
+				System.out.println("\tDescription : "
+						+ ((JSONObject) tempObject).get("Description"));
+
+				System.out.println("\tIsAlternative : "
+						+ ((JSONObject) tempObject).get("IsAlternative"));
+				i++;
+
+			}
+
+		} catch (Exception e) {
+
+			e.printStackTrace();
+
+		}
+
+	}
+
+	public static BufferedReader openJSONReader(String requestURI) {
+
+		URL requestURL = null;
+
+		try {
+
+			requestURL = new URL(requestURI);
+
+		} catch (MalformedURLException e) {
+
+			e.printStackTrace();
+
+		}
+
+		URLConnection urlConnection = null;
+
+		try {
+
+			urlConnection = requestURL.openConnection();
+
+
+		} catch (IOException e) {
+
+			e.printStackTrace();
+
+		}
+
+		BufferedReader bufferedReader = null;
+
+		try {
+//			System.out.println(urlConnection.getInputStream());
+			bufferedReader = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()));
+
+		} catch (IOException e) {
+
+			e.printStackTrace();
+
+		}
+
+		return bufferedReader;
+
+	}
+
+	public static boolean closeJSONReader(BufferedReader bufferedReader) {
+
+		boolean closeJSONReaderResult = true;
+
+		try {
+
+			bufferedReader.close();
+
+		} catch (IOException e) {
+
+			e.printStackTrace();
+
+			closeJSONReaderResult = false;
+
+		}
+
+		return closeJSONReaderResult;
+
+	}
+
+}

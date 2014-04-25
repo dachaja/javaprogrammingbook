@@ -1,0 +1,11 @@
+package com.lookcapp.iterator;
+
+public class BookShelf implements Aggregate {
+
+	@Override
+	public Iterator iterator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
