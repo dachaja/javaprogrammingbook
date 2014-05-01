@@ -1,7 +1,0 @@
-package com.lookcapp.builder.exercise2;
-
-import java.awt.event.ActionListener;
-
-public class FrameBuilder extends Builder implements ActionListener{
-
-}

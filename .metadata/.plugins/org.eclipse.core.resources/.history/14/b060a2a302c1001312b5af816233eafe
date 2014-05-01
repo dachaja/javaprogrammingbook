@@ -1,5 +1,0 @@
-package com.lookcapp.adapter;
-
-public interface Print {
-
-}

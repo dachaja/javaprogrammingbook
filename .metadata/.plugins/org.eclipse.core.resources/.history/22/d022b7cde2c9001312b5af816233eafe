@@ -1,7 +1,0 @@
-package com.lookcapp.prototype;
-
-import com.lookcapp.prototype.framework.Product;
-
-public class UnderlinePen implements Product{
-
-}
