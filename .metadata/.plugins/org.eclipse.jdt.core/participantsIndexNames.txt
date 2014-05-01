@@ -1,5 +1,7 @@
 INDEX VERSION 1.126
 /Users/adokalways/Documents/Projects/study/javaprogrammingbook/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/457077805.index
 /SpringMVCProject1/src
+/Users/adokalways/Documents/Projects/study/javaprogrammingbook/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1382872226.index
+/play-java-spring/app
 /Users/adokalways/Documents/Projects/study/javaprogrammingbook/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4144360114.index
 /SpringMVCProject3/src

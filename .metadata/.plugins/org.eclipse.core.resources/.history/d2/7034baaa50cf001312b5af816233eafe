@@ -1,0 +1,20 @@
+package com.lookcapp.strategy;
+
+public class RandomStrategy implements Strategy {
+
+	public RandomStrategy(String name, int random) {
+		
+	}
+	@Override
+	public Hand nextHand() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void study(boolean win) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;play-java-spring/app/views/index.scala.html&apos; to &apos;index2.scala.html&apos;" description="Rename resource &apos;index.scala.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="app/views/index.scala.html" name="index2.scala.html" stamp="1398470049151" updateReferences="true"/>
+</session>
