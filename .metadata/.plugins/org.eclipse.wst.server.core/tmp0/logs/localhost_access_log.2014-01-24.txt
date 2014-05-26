@@ -1,3 +1,0 @@
-0:0:0:0:0:0:0:1 - - [24/Jan/2014:01:46:34 -0800] "GET /SpringMVCProject1/login.jsp HTTP/1.1" 200 667
-127.0.0.1 - - [24/Jan/2014:13:32:10 -0800] "GET / HTTP/1.1" 404 951
-0:0:0:0:0:0:0:1 - - [24/Jan/2014:13:32:11 -0800] "GET /SpringMVCProject1/login.jsp HTTP/1.1" 200 667

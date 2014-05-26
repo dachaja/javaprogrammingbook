@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
-<fullyQualifiedTypeName name="com.lookcapp.prototype.framework.Manager"/>
-<fullyQualifiedTypeName name="com.lookcapp.prototype.UnderlinePen"/>
-<fullyQualifiedTypeName name="com.lookcapp.prototype.MessageBox"/>
-<fullyQualifiedTypeName name="com.lookcapp.prototype.framework.Product"/>
 <fullyQualifiedTypeName name="com.lookcapp.prototype.framework.ConcreateProduct"/>
 <fullyQualifiedTypeName name="com.lookcapp.builder.Builder"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
@@ -25,7 +20,6 @@
 <fullyQualifiedTypeName name="javax.swing.border.Border"/>
 <fullyQualifiedTypeName name="java.awt.BorderLayout"/>
 <fullyQualifiedTypeName name="com.lookcapp.builder.exercise2.Builder"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.io.FileWriter"/>
 <fullyQualifiedTypeName name="java.io.Writer"/>
 <fullyQualifiedTypeName name="java.lang.Class"/>
@@ -36,7 +30,6 @@
 <fullyQualifiedTypeName name="com.lookcapp.abstractfactory.factory.Item"/>
 <fullyQualifiedTypeName name="com.lookcapp.abstractfactory.factory.Page"/>
 <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="com.lookcapp.bridge.Display"/>
 <fullyQualifiedTypeName name="com.lookcapp.bridge.RandomCountDisplay"/>
 <fullyQualifiedTypeName name="com.lookcapp.bridge.StringDisplayImpl"/>
@@ -60,4 +53,11 @@
 <fullyQualifiedTypeName name="java.lang.Comparable"/>
 <fullyQualifiedTypeName name="com.lookcapp.strategy.QuickSorter"/>
 <fullyQualifiedTypeName name="com.lookcapp.strategy.SelectionSorter"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="com.lookcapp.composite.Entry"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="com.lookcapp.composite.FileTreatmentException"/>
+<fullyQualifiedTypeName name="com.lookcapp.composite.Directory"/>
+<fullyQualifiedTypeName name="com.lookcapp.composite.File"/>
 </qualifiedTypeNameHistroy>

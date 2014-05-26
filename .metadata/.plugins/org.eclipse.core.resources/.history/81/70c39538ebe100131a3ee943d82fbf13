@@ -1,0 +1,14 @@
+package com.lookcapp.composite;
+
+public class Main {
+	public static void main(String[] args) {
+		try {
+			System.out.println("Making root entries....");
+			
+			Directory rootdir = new Directory("root");
+			Directory bindir = new Directory("bin");
+		} catch (FileTreatmentException e) {
+			e.printStackTrace();
+		}
+	}
+}
