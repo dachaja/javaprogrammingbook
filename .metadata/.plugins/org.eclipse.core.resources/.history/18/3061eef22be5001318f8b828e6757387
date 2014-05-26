@@ -1,0 +1,28 @@
+package com.lookcapp.decorator;
+
+public class UpDownBorder extends Border{
+
+	protected UpDownBorder(Display display, char ch) {
+		super(display);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public int getColumns() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int getRows() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public String getRowText(int row) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

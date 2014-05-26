@@ -1,0 +1,5 @@
+package com.lookcapp.decorator;
+
+public abstract class Border extends Display{
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.lookcapp.decorator.Displa&apos; to &apos;Display&apos;&#x0A;- Original project: &apos;DesignPattern&apos;&#x0A;- Original element: &apos;com.lookcapp.decorator.Displa&apos;&#x0A;- Renamed element: &apos;com.lookcapp.decorator.Display&apos;&#x0A;- Update references to refactored element&#x0A;- Update fully qualified names in &apos;*&apos; files&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Displa&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.lookcapp.decorator{Displa.java[Displa" matchStrategy="1" name="Display" patterns="*" qualified="true" references="true" similarDeclarations="false" stamp="1401138221093" textual="true" version="1.0"/>
+</session>
