@@ -1,0 +1,5 @@
+.bin/*
+.metadata/*
+.metadata/.log
+.metadata/.plugins/*
+*.classpath*

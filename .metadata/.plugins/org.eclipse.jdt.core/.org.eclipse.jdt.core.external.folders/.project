@@ -12,12 +12,17 @@
 		<link>
 			<name>.link0</name>
 			<type>2</type>
-			<location>/Users/adokalways/Documents/Study/Typesafe/play-java-spring-master/target/scala-2.10/classes_managed</location>
+			<location>/Users/adokalways/Documents/Projects/dachaja/mPaper-was/target/scala-2.10/classes_managed</location>
 		</link>
 		<link>
-			<name>.link2</name>
+			<name>.link1</name>
 			<type>2</type>
-			<location>/Users/adokalways/Documents/play-jbook/target/scala-2.10/classes_managed</location>
+			<location>/Users/adokalways/Documents/Projects/works/petstore/target/scala-2.10/classes_managed</location>
+		</link>
+		<link>
+			<name>.link3</name>
+			<type>2</type>
+			<location>/Users/adokalways/Documents/Projects/dachaja/YourDailyList/WAS/yourdailylist/target/scala-2.10/classes_managed</location>
 		</link>
 	</linkedResources>
 </projectDescription>

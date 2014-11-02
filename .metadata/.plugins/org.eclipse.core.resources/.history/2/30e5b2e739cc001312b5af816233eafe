@@ -1,5 +1,0 @@
-package com.lookcapp.abstractfactory.listfactory;
-
-public class ListPage extends Page {
-
-}

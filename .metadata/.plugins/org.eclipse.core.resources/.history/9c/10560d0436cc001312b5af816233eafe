@@ -1,9 +1,0 @@
-package com.lookcapp.abstractfactory.factory;
-
-import java.util.ArrayList;
-
-public abstract class Page {
-	protected String title;
-	protected String author;
-	protected ArrayList<Item> content = new ArrayList<>();
-}

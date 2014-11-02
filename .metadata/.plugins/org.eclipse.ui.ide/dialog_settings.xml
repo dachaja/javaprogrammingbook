@@ -18,8 +18,11 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="/Users/adokalways/Documents/Study/Typesafe/play-java-spring-master"/>
-			<item value="/Users/adokalways/Documents/Study/Typesafe/hello-akka"/>
+			<item value="/Users/adokalways/Documents/Projects/works/petstore"/>
+			<item value="/Users/adokalways/Documents/Projects/dachaja/mPaper-was"/>
+			<item value="/Users/adokalways/Documents/Projects/dachaja/YourDailyList/WAS/yourdailylist"/>
+			<item value="/Users/adokalways/Documents/Projects/dachaja/YourDailyList/yourdailylist"/>
+			<item value="/Users/adokalways/Documents/Projects/dachaja/mPaper/WAS/mPaper"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
@@ -45,11 +48,20 @@
 			<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 		</section>
 	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="526" key="DIALOG_WIDTH"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+		<item value="577" key="DIALOG_X_ORIGIN"/>
+		<item value="529" key="DIALOG_HEIGHT"/>
+		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
+	</section>
 	<section name="CleanDialogSettings">
 		<item value="484" key="DIALOG_WIDTH"/>
-		<item value="148" key="DIALOG_Y_ORIGIN"/>
-		<item value="354" key="DIALOG_HEIGHT"/>
-		<item value="441" key="DIALOG_X_ORIGIN"/>
+		<item value="true" key="BUILD_NOW"/>
+		<item value="true" key="BUILD_ALL"/>
+		<item value="430" key="DIALOG_Y_ORIGIN"/>
+		<item value="423" key="DIALOG_HEIGHT"/>
+		<item value="1807" key="DIALOG_X_ORIGIN"/>
 		<item value="false" key="TOGGLE_SELECTED"/>
 	</section>
 	<section name="NewWizardAction">
