@@ -4,3 +4,7 @@
 .metadata/.log
 .metadata/.plugins/*
 *.classpath*
+
+.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml
+
+.metadata/.plugins/org.eclipse.jdt.core/3249670668.index
