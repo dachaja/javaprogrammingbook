@@ -1,8 +1,10 @@
 .bin/*
-*.metadata*
 .metadata/*
-.metadata/.log
 .metadata/.plugins/*
+<<<<<<< HEAD
 *.classpath*
 
 .metadata/.log
+=======
+*.classpath/*
+>>>>>>> FETCH_HEAD
