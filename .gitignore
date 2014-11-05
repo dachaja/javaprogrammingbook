@@ -8,3 +8,5 @@
 =======
 *.classpath/*
 >>>>>>> FETCH_HEAD
+
+.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
