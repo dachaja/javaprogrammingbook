@@ -42,3 +42,11 @@
 .metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml
 
 .metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+
+.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/segments.gen
+
+*.gen
+
+.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen
+
+.metadata/.plugins/org.eclipse.m2e.core/nexus/dde38d716feee983ec539f9c0dc48e65/segments.gen
