@@ -2,9 +2,7 @@
 <typeInfoHistroy>
 <typeInfo handle="=DesignPattern/src&lt;com.lookcapp.iterator{Aggregate.java[Aggregate" modifiers="513" timestamp="1397084635000"/>
 <typeInfo handle="=DesignPattern/src&lt;com.lookcapp.iterator{Iterator.java[Iterator" modifiers="513" timestamp="1397084627000"/>
-<typeInfo handle="=DesignPattern/\/Library\/Java\/JavaVirtualMachines\/jdk1.7.0_51.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.awt(ItemSelectable.class[ItemSelectable" modifiers="1537" timestamp="1387422821000"/>
 <typeInfo handle="=DesignPattern/src&lt;com.lookcapp.adapter{Print.java[Print" modifiers="513" timestamp="1397170283000"/>
-<typeInfo handle="=DesignPattern/\/Library\/Java\/JavaVirtualMachines\/jdk1.7.0_51.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.lang(Cloneable.class[Cloneable" modifiers="1537" timestamp="1387422821000"/>
 <typeInfo handle="=DesignPattern/src&lt;com.lookcapp.strategy{Strategy.java[Strategy" modifiers="513" timestamp="1398741243000"/>
 <typeInfo handle="=DesignPattern/src&lt;com.lookcapp.strategy{Sorter.java[Sorter" modifiers="513" timestamp="1398923843000"/>
 </typeInfoHistroy>
