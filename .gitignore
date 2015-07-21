@@ -1,3 +1,12 @@
+logs
+target
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/RUNNING_PID
+
 .bin/*
 .metadata/*
 .metadata/.plugins/*
@@ -8,3 +17,5 @@
 
 *.gen
 *.prefs
+
+/*.prefs

@@ -20,6 +20,11 @@
 			<location>/Users/adokalways/Documents/Projects/works/petstore/target/scala-2.10/classes_managed</location>
 		</link>
 		<link>
+			<name>.link2</name>
+			<type>2</type>
+			<location>/Users/adokalways/Documents/Projects/dachaja/hookeycamp/java8fundamentals/target/scala-2.10/classes_managed</location>
+		</link>
+		<link>
 			<name>.link3</name>
 			<type>2</type>
 			<location>/Users/adokalways/Documents/Projects/dachaja/YourDailyList/WAS/yourdailylist/target/scala-2.10/classes_managed</location>
