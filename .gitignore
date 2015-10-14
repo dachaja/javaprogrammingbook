@@ -22,9 +22,4 @@ target
 
 .metadata/*
 *.dat
-
-*.prefs
-
-*.prefs
-
-.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+.metadata*
